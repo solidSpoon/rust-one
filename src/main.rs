@@ -4,7 +4,8 @@
 // mod strings;
 // mod tuples;
 // mod arrays;
-mod vectors;
+// mod vectors;
+mod conditionals;
 
 // Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
@@ -14,6 +15,7 @@ fn main() {
    // strings::run();
    // tuples::run();
    // arrays::run();
-   vectors::run();
+   // vectors::run();
+   conditionals::run();
 }
 
