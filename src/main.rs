@@ -3,7 +3,8 @@
 // mod types;
 // mod strings;
 // mod tuples;
-mod arrays;
+// mod arrays;
+mod vectors;
 
 // Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
@@ -12,6 +13,7 @@ fn main() {
    // types::run();
    // strings::run();
    // tuples::run();
-   arrays::run();
+   // arrays::run();
+   vectors::run();
 }
 
