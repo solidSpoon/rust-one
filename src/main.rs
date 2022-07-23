@@ -10,7 +10,8 @@
 // mod functions;
 // mod pointer_ref;
 // mod structs;
-mod enums;
+// mod enums;
+mod cli;
 
 
 // Make it work, don't modify `implicitly_ret_unit` !
@@ -27,6 +28,7 @@ fn main() {
    // functions::run();
    // pointer_ref::run();
    // structs::run();
-   enums::run();
+   // enums::run();
+   cli::run();
 }
 
