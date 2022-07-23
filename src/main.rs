@@ -8,7 +8,9 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointer_ref;
+// mod pointer_ref;
+mod structs;
+
 
 // Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
@@ -22,6 +24,7 @@ fn main() {
    // conditionals::run();
    // loops::run();
    // functions::run();
-   pointer_ref::run();
+   // pointer_ref::run();
+   structs::run();
 }
 
