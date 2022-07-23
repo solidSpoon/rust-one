@@ -5,7 +5,8 @@
 // mod tuples;
 // mod arrays;
 // mod vectors;
-mod conditionals;
+// mod conditionals;
+mod loops;
 
 // Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
@@ -16,6 +17,7 @@ fn main() {
    // tuples::run();
    // arrays::run();
    // vectors::run();
-   conditionals::run();
+   // conditionals::run();
+   loops::run();
 }
 
