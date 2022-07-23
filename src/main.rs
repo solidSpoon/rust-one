@@ -1,14 +1,15 @@
 // mod print;
 // mod vars;
 // mod types;
-mod strings;
-
+// mod strings;
+mod tuples;
 
 // Make it work, don't modify `implicitly_ret_unit` !
 fn main() {
    // print::run();
    // vars::run();
    // types::run();
-   strings::run();
+   // strings::run();
+   tuples::run();
 }
 
